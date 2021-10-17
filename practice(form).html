@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form>
+        <h3>Text input</h3>
+        <label for="first-name">First Name</label>
+        <input type="text" name="first_name" id="first-name"><br><br>
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last_name" id="last-name">
+        <h3>Password input</h3>
+        <label for="password">Enter your password</label>
+        <input type="password" name="user_password" id="password">
+
+        <p>Please select your favorite colour:</p>
+        <input type="radio" name="colour" id="red" value="red">
+        <label for="red">Red</label>
+        <input type="radio" name="colour" id="blue" value="blue">
+        <label for="blue">Blue</label>
+        <input type="radio" name="colour" id="yellow" value="yellow">
+        <label for="yellow">Yellow</label>
+
+        <p>Please select your favorite month:</p>
+        <input type="checkbox" name="month" id="january" value="january">
+        <label for="january">January</label>
+        <input type="checkbox" name="month" id="february" value="february">
+        <label for="February">February</label>
+        <input type="checkbox" name="month" id="march" value="march">
+        <label for="march">March</label>
+        <input type="checkbox" name="month" id="april" value="april">
+        <label for="april">April</label>
+
+        <p>What is your favorite food:</p>
+        <select name="food" id="food" multiple>
+        <option value="sushi">Sushi</option>
+        <option value="pizza">Pizza</option>
+        <option value="steak">Steak</option>
+        <option value="rice">rice</option>
+        </select><br>
+        <input type="file" name="file" id="file">
+        <input type="submit" value="submit" id="submit" value="submit">
+
+
+
+    </form>
+    
+</body>
+</html>

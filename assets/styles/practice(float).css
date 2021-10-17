@@ -1,0 +1,23 @@
+.a {
+    background-color: red;
+     float: right;
+     width: 25%;
+}
+
+.b {
+    background-color:green;
+     float: left; 
+     width: 25%;
+}
+
+.c {
+    background-color: blue;
+    float: left; 
+    width: 25%; 
+}
+
+.d {
+    background-color: cadetblue;
+    clear: both; 
+    width: 100%;
+}

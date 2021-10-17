@@ -1,0 +1,21 @@
+.section{
+    height: 350px;
+    width: 720px;
+    background-image: url("../images/lake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section p{
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+body{
+    background-image: url("../images/desert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

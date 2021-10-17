@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form>
+        <h3>Text input</h3>
+        <label for="first-name">First Name</label>
+        <input type="text" name="first_name" id="first-name" required placeholder="type your first name"><br><br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last_name" id="last-name">
+        <input type="number" name="age" id="age" min="3" max="15">
+        <label for="age">Age</label>
+        <h3>Password input</h3>
+        <label for="password">Enter your Password:</label>
+        <input type="password" name="user_password" id="password">
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" cols="20" rows="5"></textarea>
+        <p>Please select your music genre:</p>
+        <input type="radio" name="music" id="rock" value="rock">
+        <label for="rock">Rock</label>
+        <input type="radio" name="music" id="pop" value="pop">
+        <label for="pop">Pop</label>
+        <input type="radio" name="music" id="jazz" value="jazz">
+        <label for="jazz">Jazz</label>
+
+        <p>Please select your favorite food:</p>
+        <input type="checkbox" name="food" id="ramen" value="ramen">
+        <label for="ramen">Ramen</label>
+        <input type="checkbox" name="food" id="sushi" value="sushi">
+        <label for="sushi">Sushi</label>
+        <input type="checkbox" name="food" id="curry" value="curry">
+        <label for="curry">Curry</label>
+
+        <p>What is your device?</p>
+        <select name="device" id="device" multiple>
+            <option value="macbook">Macbook</option>
+            <option value="ipad">iPad</option>
+            <option value="iphone">iPhone</option>
+        </select><br>
+
+        <input type="file" name="file" id="file"><br>
+        <input type="submit" name="submit" id="submit" value="submit">
+
+    </form>   
+</body>
+</html>

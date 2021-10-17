@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <h2>Basic Table</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>John.doe@email.com</td>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Grifin</td>
+                <td>peter.grifin@email.com</td>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>White</td>
+                <td>sarah.white@email.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Natural Places</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lake</td>
+                <td><img src="assets/images/desert1.jpg" 
+                     width="350" height="125"></td>
+            </tr>
+            <tr>
+                <td>Ocean</td>
+                <td><img src="assets/images/ocean.jpg" alt="ocean-picture" width="350" height="125"> </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Sample Table with Colspan</h2>
+    <table border="1" width="300" height="100">
+        <thead>
+            <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Joe</td>
+                <td>36</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+    <h2>Sample Table with Rowspan</h2>
+    <table border="1" style="width: 100%;">
+        <tr>
+            <th>Name</th>
+            <td>Jill</td>
+            <td>Steve</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>555-1234</td>
+            <td>333-9874</td>
+        </tr>
+        <tr>
+            <td>555-8745</td>
+            <td>858-3214</td>
+        </tr>
+    </table>
+</body>
+</html>
